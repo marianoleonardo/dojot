@@ -56,7 +56,6 @@ const mockServer = jest.fn().mockImplementation(() => ({
 }));
 
 jest.mock('../../src/app/server', () => mockServer);
-
 const App = require('../../src/app/app');
 
 function generateApp() {
